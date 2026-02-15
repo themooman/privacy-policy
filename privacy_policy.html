@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dockets - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 28px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #1a1a1a;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, li { font-size: 15px; color: #444; }
+        p { margin-bottom: 12px; }
+        ul { padding-left: 24px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        .highlight p { margin-bottom: 0; color: #2e7d32; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 14px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+        th { background: #f5f5f5; font-weight: 600; color: #333; }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Dockets — Your Digital Wallet for Receipts &amp; Loyalty Cards<br>Last updated: February 15, 2026</p>
+
+        <div class="highlight">
+            <p><strong>In short:</strong> Dockets stores all your data locally on your device. We do not collect, transmit, or sell your personal information.</p>
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>Dockets ("the App") is a mobile application that helps you manage receipts and loyalty cards. This privacy policy explains what data the App accesses, how it is stored, and your rights regarding that data.</p>
+
+        <h2>2. Data Storage</h2>
+        <p>All data you create in Dockets is stored locally on your device:</p>
+        <ul>
+            <li>Receipt images and extracted text</li>
+            <li>Loyalty card images and barcode data</li>
+            <li>Merchant names, dates, amounts, and categories</li>
+            <li>App preferences and settings</li>
+        </ul>
+        <p>This data resides in the App's private storage on your phone. It is not uploaded to any external server by default.</p>
+
+        <h2>3. Backups</h2>
+        <p>Dockets allows you to create backup files that include your complete database and all associated images. These backups are:</p>
+        <ul>
+            <li>Created and saved locally on your device</li>
+            <li>Shareable only when you explicitly choose to share them (e.g., to Google Drive, email, or other apps)</li>
+            <li>Importable back into the App to restore your data</li>
+        </ul>
+        <p>We have no access to your backup files. Where you store or send them is entirely your choice and responsibility.</p>
+
+        <h2>4. Optional Cloud Sync</h2>
+        <p>Dockets includes an optional cloud sync feature powered by Google Firebase. Cloud sync is controlled by two independent conditions, both of which must be met for any data to leave your device:</p>
+        <ol>
+            <li><strong>Feature availability:</strong> Cloud sync must be enabled on our side via a remote configuration flag. When this flag is off, the sync toggle in the App is greyed out and non-functional — no data can be synced regardless of user preference.</li>
+            <li><strong>Your explicit consent:</strong> Even when cloud sync is available, it remains off by default. You must manually enable it via the "Firebase Cloud Sync" toggle in Settings. Until you do, all data stays entirely on your device.</li>
+        </ol>
+        <p>When both conditions are met and you choose to enable sync:</p>
+        <ul>
+            <li>Your receipts, loyalty cards, and associated images may be synced to Google Firebase (Firestore and Firebase Storage)</li>
+            <li>This is governed by <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase's privacy policy</a></li>
+            <li>You can disable sync at any time by turning off the toggle — no further data will be uploaded</li>
+        </ul>
+        <p>You can use the App fully without ever enabling cloud sync. The core functionality — scanning, storing, searching, and backing up — works entirely offline.</p>
+
+        <h2>5. Device Permissions</h2>
+        <table>
+            <tr><th>Permission</th><th>Purpose</th></tr>
+            <tr><td>Camera</td><td>Scanning receipts and loyalty cards</td></tr>
+            <tr><td>Storage / Photos</td><td>Saving and importing images</td></tr>
+            <tr><td>Internet</td><td>Optional cloud sync and Google Sign-In (not required for core functionality)</td></tr>
+        </table>
+        <p>Permissions are requested only when needed and can be revoked at any time through your device settings.</p>
+
+        <h2>6. Third-Party Services</h2>
+        <p>The App may use the following third-party services only when you opt in:</p>
+        <ul>
+            <li><strong>Firebase Authentication</strong> — for optional Google Sign-In</li>
+            <li><strong>Firebase Firestore &amp; Storage</strong> — for optional cloud sync</li>
+            <li><strong>Google ML Kit</strong> — for on-device text recognition (OCR) and barcode scanning. Processing happens entirely on your device; no images are sent to Google servers.</li>
+        </ul>
+
+        <h2>7. Data Collection</h2>
+        <p>Dockets does <strong>not</strong>:</p>
+        <ul>
+            <li>Collect analytics or usage data</li>
+            <li>Use advertising SDKs or trackers</li>
+            <li>Share or sell any personal information to third parties</li>
+            <li>Store any data on our servers</li>
+        </ul>
+
+        <h2>8. Data Deletion</h2>
+        <p>You are in full control of your data:</p>
+        <ul>
+            <li>Delete individual receipts or cards at any time from within the App</li>
+            <li>Uninstalling the App removes all locally stored data</li>
+            <li>If you used cloud sync, you can delete your Firebase data by signing in and using the App's sync settings, or by contacting us</li>
+        </ul>
+
+        <h2>9. Children's Privacy</h2>
+        <p>Dockets is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this page. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>11. Contact</h2>
+        <p>If you have questions about this privacy policy, please contact us at:</p>
+        <p><strong>[email]</strong></p>
+
+        <footer>
+            &copy; 2026 Dockets. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
